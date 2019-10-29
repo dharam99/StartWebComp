@@ -1,0 +1,50 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/apiProperty": [
+                "apiProperty/apiProperty.js"
+            ],
+            "c/chartBar": [
+                "chartBar/chartBar.js"
+            ],
+            "c/eventSimple": [
+                "eventSimple/eventSimple.js"
+            ],
+            "c/firstLWComp": [
+                "firstLWComp/firstLWComp.js"
+            ],
+            "c/incidentSearch": [
+                "incidentSearch/incidentSearch.js"
+            ],
+            "c/myComponent": [
+                "myComponent/myComponent.js"
+            ],
+            "c/paginator": [
+                "paginator/paginator.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/restAPICall": [
+                "restAPICall/restAPICall.js"
+            ],
+            "c/searchResult": [
+                "searchResult/searchResult.js"
+            ],
+            "c/trackObject": [
+                "trackObject/trackObject.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
